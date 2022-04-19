@@ -8,28 +8,28 @@ you should install Python3 on your vps, linux or windows
 install python from: https://www.python.org/
 
 # install python libaray by command:
-# windows:
+windows:<br />
 open cmd and type<br />
 1- pip install pymysql<br />
 2- pip install discord.py<br />
 Note: when you install Python, you should see the checkbox called Add Python to path, you should check it<br />
 
 
-# linux:
+linux: <br />
 1- pip3 install pymysql<br />
 2- pip install discord.py<br />
 
 # edit bot config.py
 change the comfing.py to like your databases and owner id log channel id<br />
 
-you can see the bot command in config.py
+you can see the bot command in config.py<br />
 
 # how to run?
-windows: just double click on main.py
-linux: cd path to bot folder
-linux: screen python3 main.py
+windows: just double click on main.py<br />
+linux: cd path to bot folder<br />
+linux: screen python3 main.py<br />
 
-Warning: you should run bot first, the database it's will automatic created by bot.
+Warning: you should run bot first, the database it's will automatic created by bot.<br />
 # QB-Core change
 open qb-core/server/events.lua
 
