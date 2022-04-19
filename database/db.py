@@ -1,5 +1,4 @@
-from DevSqlite3.core import MySqlDatabase, Table
-from DevSqlite3.core import Database
+from DevSqlite3.core import MySqlDatabase, Table, Database
 from config import Config
 
 
