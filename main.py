@@ -8,7 +8,7 @@ import os
 
 os.chdir(os.path.dirname(__file__))
 
-TOKEN = "OTY1OTQxMDA0OTg3NDMyOTcw.Yl6gqQ.ZC0SoN7WCeFv2jg4Lu2fQhpEFlQ"
+TOKEN = ""  # discord bot token
 
 
 class DiscordDevXBot(Bot):
