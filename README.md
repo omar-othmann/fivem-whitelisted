@@ -135,7 +135,7 @@ invite your bot to your discord<br />
 then if you want to whitelist someone just type<br />
 <br />
 awl @DiscordMember<br />
-remove
+remove whitelist:<br />
 rwl @DiscordMember<br />
 
 add bot manager:<br />
