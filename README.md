@@ -124,6 +124,6 @@ end
 
 ```
 
-that's was all!!
+that's was all!!<br />
 
-# if you want to disable it just change EnableWhiteListed value to false
+if you want to disable it just change EnableWhiteListed value to false
