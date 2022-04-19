@@ -5,7 +5,7 @@ from config import Config
 @MySqlDatabase(Config.select, host=Config.ip, user=Config.user, password=Config.password)
 class Whitelist(Table):
     id = Table.integerField(primary=True, null=False)
-    discord = Table.integerField()
+    discord = Table.stringField()
     whitelisted = Table.booleanField()
 
 
