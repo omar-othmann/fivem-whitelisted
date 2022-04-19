@@ -20,7 +20,7 @@ linux: <br />
 2- pip install discord.py<br />
 
 # edit bot config.py
-change the comfing.py to like your databases and owner id log channel id<br />
+change the config.py to like your databases and owner id log channel id<br />
 
 open main.py and add your own bot token <br />
 
