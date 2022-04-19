@@ -72,8 +72,9 @@ class Whitelisted(commands.Cog):
             manager = query.managers
             if author.id in manager:
                 if members:
+                    playerId = str(members.id)
                     white = Whitelist()
-                    find = white.where('discord').equals(members.id).first()
+                    find = white.where('discord').equals(playerId).first()
                     if find:
                         if find.whitelisted:
                             await ctx.reply(f"{members.mention} already whitelisted.")
@@ -85,7 +86,7 @@ class Whitelisted(commands.Cog):
                             if channel:
                                 await channel.send(f'Member {members.mention} has been whitelisted by: {author.name}')
                     else:
-                        white.discord = members.id
+                        white.discord = playerId
                         white.whitelisted = True
                         white.save()
                         await ctx.reply(f"{members.mention} has been whitelisted.")
@@ -111,8 +112,9 @@ class Whitelisted(commands.Cog):
             manager = query.managers
             if author.id in manager:
                 if members:
+                    playerId = str(members.id)
                     white = Whitelist()
-                    find = white.where('discord').equals(members.id).first()
+                    find = white.where('discord').equals(playerId).first()
                     if find:
                         if find.whitelisted:
                             find.whitelisted = False
