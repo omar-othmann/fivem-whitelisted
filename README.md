@@ -22,6 +22,10 @@ linux: <br />
 # edit bot config.py
 change the comfing.py to like your databases and owner id log channel id<br />
 
+open main.py and add your own bot token <br />
+
+go to: https://discord.com/developers/applications to make bot token<br /> for more information search youtube about it<br />
+
 you can see the bot command in config.py<br />
 
 # how to run?
