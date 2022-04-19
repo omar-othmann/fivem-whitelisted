@@ -37,7 +37,9 @@ on top type ```local EnableWhiteListed = true```
 
 find function name: OnPlayerConnecting
 
-on top it added this: ```
+on top it added this: 
+
+```
 function Split(s, delimiter)
     result = {};
     for match in (s..delimiter):gmatch("(.-)"..delimiter) do
@@ -45,10 +47,11 @@ function Split(s, delimiter)
     end
     return result;
 end
-```
 
+```
 now replace OnPlayerConnecting with
 ```
+
 local function OnPlayerConnecting(name, setKickReason, deferrals)
     local player = source
     local license
