@@ -129,5 +129,20 @@ end
 ```
 
 that's was all!!<br />
+<br />
+invite your bot to your discord<br />
+
+then if you want to whitelist someone just type<br />
+<br />
+awl @DiscordMember<br />
+remove
+rwl @DiscordMember<br />
+
+add bot manager:<br />
+awlm @DiscordMember<br />
+remove bot manager:<br />
+rwlm @DiscordManager<br />
+
+more command in config.py<br />
 
 if you want to disable it just change EnableWhiteListed value to false
