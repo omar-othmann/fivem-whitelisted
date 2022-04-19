@@ -7,19 +7,20 @@ you should install Python3 on your vps, linux or windows
 
 install python from: https://www.python.org/
 
-install python libaray by command:
-windows: open cmd and type
-1- pip install pymysql
-2- pip install discord.py
-Note: when you install Python, you should see the checkbox called Add Python to path, you should check it
+# install python libaray by command:
+# windows:
+open cmd and type<br />
+1- pip install pymysql<br />
+2- pip install discord.py<br />
+Note: when you install Python, you should see the checkbox called Add Python to path, you should check it<br />
 
 
-linux:
-1- pip3 install pymysql
-2- pip install discord.py
+# linux:
+1- pip3 install pymysql<br />
+2- pip install discord.py<br />
 
 # edit bot config.py
-change the comfing.py to like your databases and owner id log channel id
+change the comfing.py to like your databases and owner id log channel id<br />
 
 you can see the bot command in config.py
 
