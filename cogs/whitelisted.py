@@ -212,7 +212,8 @@ class Whitelisted(commands.Cog):
     async def on_member_remove(self, member):
         channel = self.client.get_channel(Config.logChannelId)  # log channel, go to your discord server and right click on it and Copy Id
         db = Whitelist()
-        find = db.where('discord').equals(member.id).first()
+        playerId = str(member.id)
+        find = db.where('discord').equals(playerId).first()
         if find:
             setting = Settings()
             query = setting.getAll()
@@ -229,15 +230,16 @@ class Whitelisted(commands.Cog):
         query = setting.getAll()
         if query:
             if query.autoGiver:
+                playerId = str(member.id)
                 db = Whitelist()
-                find = db.where('discord').equals(member.id).first()
+                find = db.where('discord').equals(playerId).first()
                 if find:
                     if not find.whitelisted:
                         find.whitelisted = True
                         find.save()
                         await channel.send(f'User {member.mention} has automatic add to whitelist by bot.')
                 else:
-                    db.discord = member.id
+                    db.discord = playerId
                     db.whitelisted = True
                     db.save()
                     await channel.send(f'User {member.mention} has automatic add to whitelist by bot.')
