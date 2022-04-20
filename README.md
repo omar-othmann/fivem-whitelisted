@@ -17,7 +17,7 @@ open cmd and type<br />
 
 linux: <br />
 1- pip3 install pymysql<br />
-2- pip install discord.py<br />
+2- pip3 install discord.py<br />
 
 # edit bot config.py
 change the config.py to like your databases and owner id log channel id<br />
