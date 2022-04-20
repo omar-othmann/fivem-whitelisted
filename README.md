@@ -134,14 +134,14 @@ invite your bot to your discord<br />
 
 then if you want to whitelist someone just type<br />
 <br />
-awl @DiscordMember<br />
+awl @mention<br />
 remove whitelist:<br />
-rwl @DiscordMember<br />
+rwl @mention<br />
 
 add bot manager:<br />
-awlm @DiscordMember<br />
+awlm @mention<br />
 remove bot manager:<br />
-rwlm @DiscordManager<br />
+rwlm @mention<br />
 
 more command in config.py<br />
 
