@@ -6,7 +6,7 @@ fivem discord bot whitelisted
 you should install Python3 on your vps, linux or windows
 
 install python from: https://www.python.org/<br />
-Note for windows: when you install Python, you should see the checkbox called Add Python to path on the bottom, you should check it<br />
+Note for windows: when you install Python, you should see the checkbox called *Add Python to path* on the bottom, you should check it<br />
 
 # install python libaray by command:
 windows:<br />
