@@ -59,6 +59,7 @@ class Instance:
                                        database=name,
                                        autocommit=True,
                                        cursorclass=pymysql.cursors.DictCursor)
+                conn.ping(reconnect=True)
             except pymysql.err.OperationalError as w:
                 raise DatabaseException("Runtime error: {error}".format(error=w))
             except pymysql.err.InternalError as w:
