@@ -43,7 +43,7 @@ find function name: OnPlayerConnecting
 
 on top it added this: 
 
-```
+```lua
 function Split(s, delimiter)
     result = {};
     for match in (s..delimiter):gmatch("(.-)"..delimiter) do
@@ -54,7 +54,7 @@ end
 
 ```
 now replace OnPlayerConnecting with
-```
+```lua
 
 local function OnPlayerConnecting(name, setKickReason, deferrals)
     local player = source
