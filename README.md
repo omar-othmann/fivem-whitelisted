@@ -1,6 +1,8 @@
 # MySQL library is out of date:
 new libraray: https://github.com/omar-othmann/DevCore-MySQL
 if bot stay like 30 Min without to get new commands, the MySQL library lost the connections. so please use new library for MySQL.
+<br>
+or you should change the timeout value in your MySQL server settings.
 
 # fivem-whitelisted
 fivem discord bot whitelisted
